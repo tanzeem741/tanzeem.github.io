@@ -1,0 +1,22 @@
+.mr{
+    margin-right:10px;
+}
+
+.img{
+    object-fit: contain;
+}
+.image.avatar img{
+    width:6rem;
+    height:6rem;
+    object-fit: cover;
+}
+
+@media (max-width:500px){
+    a.img-small{
+        width:20rem;
+
+    }
+    a.img-small img{
+        width:100%;
+    }
+}
